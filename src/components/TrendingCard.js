@@ -9,7 +9,6 @@ export default function TrendingCard(){
             setCoins(res.data.coins)
         })
     },[])
-    console.log(coins)
     return(
         <div className="m-5 bg-white h-60 px-6 py-4 rounded-2xl">
             <div className="font-semibold text-xl">Trending Coins (24h)</div>

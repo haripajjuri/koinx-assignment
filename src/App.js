@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
-
+import Container from "./components/Container";
 
 function App() {
   return (
@@ -11,8 +11,7 @@ function App() {
       <div className="w-[94%] mx-auto ">
       <div className="grid grid-cols-[2.5fr,1.3fr]">
         <div>
-        <div className="border-2 border-green-500 h-screen">hello</div>
-        <div className="border-2 border-green-500 h-screen">hello</div>
+          <Container />
         </div>
 
         <div>
