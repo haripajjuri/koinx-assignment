@@ -48,7 +48,7 @@ export default function Overview(){
                 </div>
             </div>
 
-            <div className="font-semibold text-xl mt-10 mb-5 ml-3">Fundamentals</div>
+            <div className="font-semibold text-xl mt- mb-5 ml-3">Fundamentals</div>
 
             <div className="grid grid-cols-2 pb-8">
                 <div className=" mx-8 flex flex-col gap-3">
