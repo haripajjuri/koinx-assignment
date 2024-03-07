@@ -41,7 +41,7 @@ export default function Container(){
                     <div className='w-3'>
                         <img src={upward} alt="" />
                     </div>
-                    <p className="font-medium text-[13.5px] text-green-600">{coin?.bitcoin.usd_24h_change.toFixed(2)}</p>
+                    <p className="font-medium text-[13.5px] text-green-600">{coin?.bitcoin.usd_24h_change.toFixed(2)} %</p>
                 </div>
 
                 <p className="font-bold text-xs text-gray-500">( 24H )</p>
@@ -49,7 +49,7 @@ export default function Container(){
 
             <p className="font-semibold ml-6 mt-2 text-gray-700 pl-3 text-md">₹{coin?.bitcoin.inr.toLocaleString()}</p>
 
-            <div className="m-5 px-3 h-[61%]">
+            <div className="m-5 px-2 h-[60%]">
                 <TradingViewWdiget/>
             </div>
             
