@@ -21,3 +21,15 @@ code {
 .sidebar{
   position: sticky;
 }
+
+.active-tab{
+  font-weight: 500;
+  color: #2563EB;
+  font-size: medium;
+}
+
+.tab{
+  font-size: medium;
+  color: gray;
+  font-weight: 500;
+}

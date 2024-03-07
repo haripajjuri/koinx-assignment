@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Container from "./components/Container";
+import TabsContainer from "./components/TabsContainer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
         <div>
           <Container />
+          <TabsContainer />
         </div>
 
         <div>

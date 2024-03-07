@@ -18,7 +18,7 @@ export default function Container(){
     },[])
     console.log(coin)
     return(
-        <div className=" bg-white my-6 rounded-xl h-screen ">
+        <div className=" bg-white my-6 rounded-xl h-[706px] ">
             <div className="flex gap-4 items-center m-5 pt-6">
                 <div className="w-10 pt-1">
                     <img src={bitcoin} alt="bitcoin" />
@@ -49,7 +49,7 @@ export default function Container(){
 
             <p className="font-semibold ml-6 mt-2 text-gray-700 pl-3 text-md">₹{coin?.bitcoin.inr.toLocaleString()}</p>
 
-            <div className="m-5 px-2 h-[60%]">
+            <div className="m-5 px-2 h-[65%]">
                 <TradingViewWdiget/>
             </div>
             
