@@ -32,7 +32,7 @@ function TradingViewWidget() {
   );
 
   return (
-    <div className="tradingview-widget-container h-56 overflow-hidden" ref={container}></div>
+    <div className="tradingview-widget-container overflow-hidden rounded-xl" ref={container}></div>
   );
 }
 

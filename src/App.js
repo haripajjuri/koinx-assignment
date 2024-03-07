@@ -9,7 +9,8 @@ function App() {
         <Navbar/>
       </div>
       <div className="w-[94%] mx-auto ">
-      <div className="grid grid-cols-[2.5fr,1.3fr]">
+      <div className="grid grid-cols-[2.5fr,1.2fr]">
+
         <div>
           <Container />
         </div>
@@ -17,6 +18,7 @@ function App() {
         <div>
           <Sidebar />
         </div>
+
       </div>
       </div>
     </div>
