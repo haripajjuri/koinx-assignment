@@ -8,7 +8,7 @@ export default function TabsContainer(){
 
     return(
         <div className="h-screen">
-        <div className="flex gap-6 pt-4 border-red-400 pl-4">
+        <div className="flex gap-6 pt-6 border-red-400 pl-4">
             <p onClick={()=>updateToggle(1)} className={toggle===1?'active-tab cursor-pointer':'tab cursor-pointer'}>overview</p>
             <p onClick={()=>updateToggle(2)} className={toggle===2?'active-tab cursor-pointer':'tab cursor-pointer'}>fundamentals</p>
             <p onClick={()=>updateToggle(3)} className={toggle===3?'active-tab cursor-pointer':'tab cursor-pointer'}>new insights</p>
